@@ -374,6 +374,7 @@ footer .footer-below {
   background: transparent;
   transition: all 0.3s ease-in-out;
   margin-top: 15px;
+
 }
 .btn-outline:hover,
 .btn-outline:focus,
@@ -475,6 +476,7 @@ fieldset[disabled] .btn-success.active {
   text-align: center;
   font-size: 20px;
   line-height: 45px;
+    color:white;
 }
 .btn:focus,
 .btn:active,
