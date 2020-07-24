@@ -94,17 +94,38 @@
 							<h3>UX Research Internship</h3>
 							<p style="text-align:center">Cloud Platform Business Unit, VMware Inc.<br/>Summer 2015</p>
 							
+							<h4>Methods</h4>
+							<p><i>Service design, interview, observation, focus group, experience map</i></p>
+							<h4>Challenge</h4>
+							<p>Offer established server administrators solutions that automate some of their decision-making, and convince them that these automations are trust-worthy while retaining their sense of control, security, and owenership.</p>
+							
+							
+							
 							<h4>Background</h4>
 							
 	<p>							VMware's Central User Experience group is tasked with defining, designing and validating the user experience for a range of VMware products. In the summer of 2015, I interned for Kathryn Murrell's team, which was responsible for the Software Defined Data Center (SDDC), including vSphere Suite, vRealize Suite, vCloud Air, Site Recovery Manager, and VSAN.
 
-	</p><p>							A key issue in my group was how advanced users of VMware's datacenter management products would perceive or accept solutions proposed, recommended, or enacted by these systems. I was tasked with creating a model for user trust that could be used to situate discussions and seed designer understanding of this issue.
+	</p><p>							A key issue encountered in the early stages of design was how advanced users of VMware's datacenter management products would perceive or accept solutions proposed, recommended, or enacted by these automated systems. Before server administrators could be convinced to try them out, we needed to understand their concerns and considerations. To help with this process, I created a model for user trust that could be used to situate discussions and seed designer understanding of this issue.
 
 	</p><h4>Research</h4><p>							I conducted several interviews, sat in on a number of design meetings for an as yet unannounced product, and observed a blind focus group session with over a dozen high-level system administrators who discussed desirable features of virtual server management software and their challenges with it.
 
-	</p><h4>The experience map</h4><p>							The technique I used to frame my findings was the experience map: a graphical representation of all stages of a process that includes user touchpoints, thoughts, feelings and action. Unlike a traditional experience map, in which the X axis represents the chronology of a journey from pre- to post-execution, my X axis represented the relationship between a user and the system along a continuum of trust: from a cool, cautious interaction through a slow warming to a sense of reliance on the system and justified trust in its actions.
+	</p><h4>The Pain-Trust model</h4><p>							
+		I used an experience map-like visualization to illustrate the stages of the trust relationship between a server administrator and an automated agent. Like an experience map, my model had a graphical representation of all stages of a process that includes user touchpoints, thoughts, feelings and action. </p><p>Unlike a traditional experience map, in which the X axis represents the chronology of a journey from pre- to post-execution, my X axis represented the relationship between a user and the system along a continuum of trust: from a cool, cautious interaction through a slow warming to a sense of reliance on the system and justified trust in its actions:
 
-	</p><p>							Quotes in red represent challenges the user is struggling with at each stage of the relationship, while quotes in green indicate the desired outcome in case of a sound intervention on the system's part. The headings above the chart indicate the actions taken by the system at every stage, while the verbs in the Trust section describe the system's role in fostering the trust relationship with the user. Product-specific details have been omitted from the map.
+	</p>
+	<ul class="list-modal">
+		<li><b>Monitor:</b> The system passively monitors the server and offers information only when queried. The administrator queries and interprets the data.</li>
+		<li><b>Notify:</b> The system is trusted to interpret patterns and issues timely alerts. Only the administrator takes corrective action.</li>
+		<li><b>Gather:</b> The system proposes a range of solutions, including newly available cloud services. The administrator selects one.</li>
+		<li><b>Decide:</b> The system selects a solution and the administrator confirms it. Trust is strengthened by a match between the administrator's solution and the one recommended by the system.</li>
+		<li><b>Act:</b> The system implements its best solution and notifies the administrator. Undo and a full refund are available if needed.</li>
+		<li><b>Automate:</b> The system manages the server, while the administrator can monitor, audit, and override any decisions it makes.</li>
+		
+	</ul>	
+	
+	<p>The model proposed that all software solutions exist somewhere along this continuum between Pain (effort, responsibility, autonomy) and Trust (automation, decision support). With users such as server administrators, who have typically been reticent to lose control over their servers, the relationship must start with a low level of commitment, and the product must build trust slowly over time, understanding that there is an optimal balance of trust and autonomy for every user and service.</p>
+		<p>
+									Quotes in red represent challenges the user is struggling with at each stage of the relationship, while quotes in green indicate the desired outcome in case of a sound intervention on the system's part. The headings above the chart indicate the actions taken by the system at every stage, while the verbs in the Trust section describe the system's role in fostering the trust relationship with the user. Product-specific details have been omitted from the map.
 	</p><p>
 			The model proved robust and illustrative. Each SDDC product could be situated in one of its columns, and the difference between their current level of trust and the one they desired to achieve was clearly represented. This type of experience map is a tool for aligning the findings, goals and expectations of researchers, designers and programmers on an interdisciplinary UX team.
 		</p>						
@@ -130,7 +151,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; Velian Pandeliev 2017<br/>Freelancer theme by <a href="http://startbootstrap.com">Start Bootstrap</a>
+                         Copyright &copy; Velian Pandeliev 2017-2020<br/>Freelancer theme by <a href="http://startbootstrap.com">Start Bootstrap</a>
                     </div>
                 </div>
             </div>
